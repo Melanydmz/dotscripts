@@ -5,8 +5,8 @@ BIN_DIR = $(HOME)/bin
 
 link:
 
-	ln -s $(SCRIPTS_DIR)/makehtml $(BIM_DIR)/makehtml
-        ln -s $(SCRIPTS_DIR)/makeflask $(BIN_DIR)/makeflask
+	ln -sf $(SCRIPTS_DIR)/makehtml $(BIN_DIR)/makehtml
+        ln -sf $(SCRIPTS_DIR)/makeflask $(BIN_DIR)/makeflask
         
 
 unlink:
